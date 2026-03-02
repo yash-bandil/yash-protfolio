@@ -34,9 +34,9 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 // import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
-// import webverseLogo from './assets/company_logo/webverse_logo.png';
-// import agcLogo from './assets/company_logo/agc_logo.png';
-// import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import webverseLogo from './assets/company_logo/webverse_logo.png';
+import agcLogo from './assets/company_logo/agc_logo.png';
+import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 // import glaLogo from './assets/education_logo/gla_logo.png';
@@ -104,7 +104,7 @@ export const SkillsInfo = [
   },
 ];
 
-  // export const experiences = [
+export const experiences = [
   //   {
   //     id: 0,
   //     img: webverseLogo,
@@ -125,23 +125,23 @@ export const SkillsInfo = [
   //       " Next Js",
   //     ],
   //   },
-  //   {
-  //     id: 1,
-  //     img: agcLogo,
-  //     role: "Fullstack Engineer",
-  //     company: "Agumentik Group of Companies",
-  //     date: "July 2023 - March 2024",
-  //     desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-  //     skills: [
-  //       "ReactJS",
-  //       "Redux",
-  //       "JavaScript",
-  //       "Tailwind CSS",
-  //       "HTML",
-  //       "CSS",
-  //       "SQL",
-  //     ],
-  //   },
+    {
+      id: 1,
+      img: agcLogo,
+      role: "Fullstack Engineer",
+      company: "Agumentik Group of Companies",
+      date: "July 2023 - March 2024",
+      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      skills: [
+        "ReactJS",
+        "Redux",
+        "JavaScript",
+        "Tailwind CSS",
+        "HTML",
+        "CSS",
+        "SQL",
+      ],
+    },
   //   {
   //     id: 2,
   //     img: newtonschoolLogo,
@@ -158,7 +158,7 @@ export const SkillsInfo = [
   //       "Material UI",
   //     ],
   //   },
-  // ];
+  ];
   
   export const education = [
     // {
