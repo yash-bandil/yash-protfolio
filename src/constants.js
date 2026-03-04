@@ -23,7 +23,7 @@ import javaLogo from './assets/tech_logo/java.png';
 // import pythonLogo from './assets/tech_logo/python.png';
 // import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
+import SigmaGPT from './assets/tech_logo/SigmaGPT.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 // import postmanLogo from './assets/tech_logo/postman.png';
 // import mcLogo from './assets/tech_logo/mc.png';
@@ -32,6 +32,7 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 // import vercelLogo from './assets/tech_logo/vercel.png';
 // import postgreLogo from './assets/tech_logo/postgre.png';
 // import csharpLogo from './assets/tech_logo/csharp.png';
+
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -216,16 +217,16 @@ export const experiences = [
     github: "https://github.com/yash-bandil/MajorProject",
     webapp: "https://majorproject-k6ns.onrender.com/listings",
   },
-    // {
-    //   id: 0,
-    //   title: "GitHub Profile Detective",
-    //   description:
-    //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    //   image: githubdetLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    //   github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    //   webapp: "https://githubprofiledetective.netlify.app/",
-    // },
+    {
+      id: 0,
+      title: "SigmaGPT",
+      description:
+        "Developed an AI-powered chatbot project using modern web technologies to assist users with queries and productivity tasks. Implemented interactive UI, prompt-based responses, and basic AI integration to enhance user experience.",
+      image: SigmaGPT,
+      tags: ["JavaScript","Express","React JS", " GROQ API"],
+      github: "https://github.com/yash-bandil/SIGMAGPT",
+      webapp: "https://sigmagpt-seven.vercel.app/",
+    },
     // {
     //   id: 1,
     //   title: "CS Prep",
