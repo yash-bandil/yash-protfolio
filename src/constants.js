@@ -23,7 +23,7 @@ import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
-import SigmaGPT from './assets/tech_logo/SigmaGPT.png';
+import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
@@ -56,6 +56,7 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import SigmaGPT from './assets/tech_logo/SigmaGPT.png';
 
 
 export const SkillsInfo = [
@@ -218,7 +219,7 @@ export const experiences = [
     webapp: "https://majorproject-k6ns.onrender.com/listings",
   },
     {
-      id: 1,
+      id: 0,
       title: "SigmaGPT",
       description:
         "An AI-powered chatbot web application built using React and Express. Integrated GROQ API to generate intelligent responses, featuring a clean UI and real-time prompt-based interactions.",
