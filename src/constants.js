@@ -218,7 +218,7 @@ export const experiences = [
     webapp: "https://majorproject-k6ns.onrender.com/listings",
   },
     {
-      id: 0,
+      id: 1,
       title: "SigmaGPT",
       description:
         "Developed an AI-powered chatbot project using modern web technologies to assist users with queries and productivity tasks. Implemented interactive UI, prompt-based responses, and basic AI integration to enhance user experience.",
