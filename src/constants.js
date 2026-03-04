@@ -221,9 +221,9 @@ export const experiences = [
       id: 1,
       title: "SigmaGPT",
       description:
-        "Developed an AI-powered chatbot project using modern web technologies to assist users with queries and productivity tasks. Implemented interactive UI, prompt-based responses, and basic AI integration to enhance user experience.",
+        "An AI-powered chatbot web application built using React and Express. Integrated GROQ API to generate intelligent responses, featuring a clean UI and real-time prompt-based interactions.",
       image: SigmaGPT,
-      tags: ["JavaScript","Express","React JS", " GROQ API"],
+      tags: ["JavaScript","Express","React JS", "GROQ API"],
       github: "https://github.com/yash-bandil/SIGMAGPT",
       webapp: "https://sigmagpt-seven.vercel.app/",
     },
