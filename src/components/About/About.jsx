@@ -25,8 +25,9 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                'Fullstack Developer',
-                'Coder',
+                'Full Stack Developer',
+                'Programmer',
+                'MERN Stack Developer',
               ]}
               speed={100}
               eraseSpeed={50}
