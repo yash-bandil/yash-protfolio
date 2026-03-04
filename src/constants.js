@@ -219,7 +219,7 @@ export const experiences = [
     webapp: "https://majorproject-k6ns.onrender.com/listings",
   },
     {
-      id: 0,
+      id: 1,
       title: "SigmaGPT",
       description:
         "An AI-powered chatbot web application built using React and Express. Integrated GROQ API to generate intelligent responses, featuring a clean UI and real-time prompt-based interactions.",
