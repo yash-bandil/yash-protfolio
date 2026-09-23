@@ -57,6 +57,8 @@ import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import SigmaGPT from './assets/tech_logo/SigmaGPT.png';
+import roommateLogo from './assets/tech_logo/roommateLogo.png';
+import hirenestLogo from './assets/tech_logo/hirenestLogo.png';
 
 
 export const SkillsInfo = [
@@ -127,23 +129,23 @@ export const experiences = [
   //       " Next Js",
   //     ],
   //   },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
+    // {
+    //   id: 1,
+    //   img: agcLogo,
+    //   role: "Fullstack Engineer",
+    //   company: "Agumentik Group of Companies",
+    //   date: "July 2023 - March 2024",
+    //   desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    //   skills: [
+    //     "ReactJS",
+    //     "Redux",
+    //     "JavaScript",
+    //     "Tailwind CSS",
+    //     "HTML",
+    //     "CSS",
+    //     "SQL",
+    //   ],
+    // },
   //   {
   //     id: 2,
   //     img: newtonschoolLogo,
@@ -228,6 +230,41 @@ export const experiences = [
       github: "https://github.com/yash-bandil/SIGMAGPT",
       webapp: "https://sigmagpt-seven.vercel.app/",
     },
+
+    {
+  id: 2,
+  title: "HireNest",
+  description:
+    "A job and internship finder platform that allows users to search and filter opportunities by location, job type, experience, and skills. The application includes dynamic job details, bookmarking, and application functionality.",
+  image: hirenestLogo,
+  tags: [
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "React Router",
+    "LocalStorage",
+  ],
+  github: "https://github.com/yash-bandil/HireNest",
+  webapp: "https://hirenest-puce.vercel.app/",
+},
+{
+  id: 3,
+  title: "Roommate Finder",
+  description:
+    "A roommate-finding platform that helps users discover compatible roommates based on city, budget, occupation, and lifestyle preferences. The application includes profile creation, favourites, filtering, and persistent local data storage.",
+  image: roommateLogo,
+  tags: [
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "React Router",
+    "LocalStorage",
+  ],
+  github: "https://github.com/yash-bandil/roommate-finder.git",
+  webapp: "https://roommate-finder-ruby.vercel.app/",
+},
+
+
     // {
     //   id: 1,
     //   title: "CS Prep",
